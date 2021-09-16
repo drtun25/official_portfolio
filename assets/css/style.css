@@ -54,6 +54,7 @@ li, a {
     position: relative;
     align-items: center;
     transition: all 0.5s ease-in-out;
+    grid-template-columns: auto;
 }
 
 img {
@@ -65,5 +66,23 @@ img:hover,
     box-shadow: inset 0px 0px 5px grey, 0 0 12px grey;
 }
 
+@media screen and (min-width: 769px) {
+   .project1, .otherprojects  {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+  }
 
+  @media screen and (min-width: 992px) {
+    header, .header {
+      width: 100%;
+    }
+  
+    .project1, .otherprojects {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
 
