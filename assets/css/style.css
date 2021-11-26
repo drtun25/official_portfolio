@@ -61,6 +61,19 @@ img {
     border: 5px solid blue;
 }
 
+.link1{
+  background: url("https://drtun25.github.io/u-hiker-project-1/");
+}
+
+.link2{
+  background: url("https://ghastly-fangs-36933.herokuapp.com/");
+}
+
+.link3{
+  background: url("https://notetakertune.herokuapp.com/");
+}
+
+
 img:hover,
 .project1:hover, .otherprojects:hover {
     box-shadow: inset 0px 0px 5px grey, 0 0 12px grey;
